@@ -1,6 +1,7 @@
 # Sveltkit AAD Authentication
 
 A demo app explaining the authorization code flow in Azure AD using a svelteki app.
+Full explanation of the code can be found at: https://medium.com/@varu87/azure-ad-authentication-in-sveltekit-f596cfa8a349
 
 ## Getting Started
 

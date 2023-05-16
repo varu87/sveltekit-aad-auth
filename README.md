@@ -1,38 +1,19 @@
-# create-svelte
+# Sveltkit AAD Authentication
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A demo app explaining the authorization code flow in Azure AD using a svelteki app.
 
-## Creating a project
+## Getting Started
 
-If you're seeing this, you've probably already done this step. Congrats!
+To run this application on your local machine, follow these steps:
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+1. Clone the repository: `git clone https://github.com/varu87/sveltekit-aad-auth.git`
+2. Navigate to the project directory: `cd sveltekit-aad-auth`
+3. Install dependencies: `npm install`
+4. Start the development server: `npm run dev -- --open`
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+## Credits
 
-## Developing
+This project was built using the following technologies:
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+- [SvelteKit](https://kit.svelte.dev/)
+- [Azure](https://www.npmjs.com/package/@azure/msal-node)

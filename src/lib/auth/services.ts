@@ -68,7 +68,7 @@ export const getTokens = async (event: RequestEvent) => {
 					event.cookies.set('account', JSON.stringify(tokenResponse.account), cookiesConfig);
 					return decodedState.redirectTo;
 				} catch (err) {
-					console.log(error);
+					console.log(err);
 				}
 			} else if (error) {
 				throw new Error(error);
